@@ -1,15 +1,17 @@
 *{padding: 0;margin: 0;font-family: inherit;letter-spacing: 1px;}
 #header-color a{
     text-decoration: none;
-    color:#000;
+    color:#fff;
     font-weight: 800;
+    
 }
 #header-color{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     height: 70px;    
     display: flex;
     align-items: center;
     font-weight: 800;
+    color:#fff;
 }
 #header-color>div:first-child{
     width: 1269px;
@@ -30,9 +32,7 @@
 #header-color>div:first-child>ul>li{
     width: 110px;
     height: 36px;
-}
-#header-color>div:first-child>ul>li>ul{
-    position: relative;
+
 }
 #header-color li{
  list-style: none;
@@ -45,21 +45,21 @@
     align-items: center;
 }
 #header-color>div:first-child>div:last-child>a{
-    border:2px solid #000;
+    border:2px solid #fff;
     border-radius: 20px;
     padding: 8px 40px ;
     font-size: 14px;
     font-weight: 800;
 }
 #header-color>div:first-child>div:last-child>a:hover{
-    background-color: #000;
-    color:#fff;
+    background-color: #fff;
+    color:#000;
 }
 #header-color>div:first-child>ul>li>ul>li{
     width: 90px;
     height: 40px;
     margin: auto;
-    background-color: #fff;
+    background-color: #000;
 }
 #header-color>div:first-child>ul>li>ul>li:last-child{
     border-radius: 0 0 12px 12px;
@@ -73,7 +73,7 @@
     border-top:1px solid #dcdcdc;
 }
 #header-color span{
-    border-bottom:2px solid #fff;
+    border-bottom:2px solid #000;
 }
 #header-color span:hover{
     border-bottom:2px solid #13d4c8;
