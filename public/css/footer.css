@@ -1,0 +1,68 @@
+*{
+    padding: 0;margin: 0;
+    font-family: inherit;
+}
+html{
+     width: 1903px;
+     margin:auto;
+}
+#footer{
+   
+    height: 133.39px;
+}
+#footer a{
+    text-decoration: none;
+    color:#000;
+}
+#footer>div:first-child{
+    position: relative;
+    display: flex;
+    height: 71px;
+}
+#footer>div:first-child>div:first-child{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+#footer>div:first-child>div:last-child{
+    position: absolute;
+    right:15px;
+    top:18px;
+}
+#footer>div:first-child>div:last-child>img{
+    margin-left: 15px;
+}
+#footer>div:first-child>div:first-child>span:first-child{
+    font-weight: 800;
+    margin-left: 40px;
+}
+#footer>div:first-child>div:first-child>span:nth-child(2){
+    position: relative;
+    left: 5px;
+}
+#footer>div:first-child>div:first-child>a:nth-child(3),#footer>div:first-child>div:first-child>a:nth-child(4),#footer>div:first-child>div:first-child>a:nth-child(5){
+    margin-left:15px;
+}
+.my_cn{
+    display: inline;
+    margin-left: 15px;
+}
+#footer>div:last-child>div{
+    width: 420px;
+    display: flex;
+    margin:auto;
+    padding: 20px 0 20px 0;
+}
+#footer>div:last-child>div a p{
+    color:#d0d0d0;
+    font-size: 14px;
+}
+#footer>div:last-child>div>a:last-child{
+    display: flex;
+}
+#footer>div:last-child>div>a:first-child p{
+    margin-right: 10px;
+}
+#footer>div:last-child>div>a:last-child p{
+    margin-left: 10px;
+}

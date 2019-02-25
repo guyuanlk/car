@@ -1,0 +1,145 @@
+*{padding: 0;margin: 0;font-family: inherit;}
+a{
+    text-decoration: none;
+    font-weight: 800;
+}
+/*header and footer*/
+.my-header>iframe,.my-footer>iframe{
+    width: 100%;
+    margin:auto;
+}
+.my-header{
+    height: 70px;
+    margin: auto;
+    position: absolute;
+    z-index: 50;
+    width: 100%;
+}
+.my-header>iframe{
+    height: 300px;
+}
+.my-footer{
+    margin: auto;
+    margin-top:70px;
+}
+/*section*/
+#order{
+    position: relative;
+    top:70px;
+}
+.img_order{
+    height:884px;
+}
+.niohouse-leads-main{
+    width: 570px;
+    height: 806px;
+    background-color: white;
+    opacity: .8;
+    position: absolute;
+    left: 6%;
+    top:7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list_order{
+    width: 381px;
+    height: 551px;
+}
+.form_title{
+    width: 380px;
+    height: 81px;
+}
+p{
+    font-size:1.4em;
+}
+hr{
+    margin-top:6%;
+}
+table{
+    width: 380px;
+    height: 551px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border:none;
+    border-bottom: 1px solid #b7b8b8;
+    font-size: 19px;
+}
+td{
+    position: relative;
+    height: 63px;
+}
+.text_teal{
+    position: absolute;
+    top:30px;
+    right: 0;
+    color:#00bebe;
+    cursor: pointer;
+}
+.text_teal:hover{
+    color:#00263c;
+}
+.ui-select-title{
+    height: 40px;
+    font-size: 17px;
+    cursor: pointer;
+    color: #6d7479;
+    border-bottom: 1px solid #b7b8b8;
+}
+.ui-select-title-img{
+    background: url(../images/header_and_footer/bottom.png) no-repeat right center;
+}
+.ui-select-title-img2{
+    background: url(../images/header_and_footer/top.png) no-repeat right center;
+}
+.ui-select-list{
+    display: block;
+    width: 380px;
+    height: 161px;
+    position: absolute;
+    z-index: 50;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #b7b8b8;
+    border-top: none;
+}
+.ui-select-list>div{
+    line-height: 2;
+    text-indent: 10px;
+    font-size: 16px;
+    color:#6d7479;
+    font-weight:inherit;
+    cursor: pointer;
+}
+.ui-select-list>div:hover{
+    background-color:#e0e0e0;
+    color:black;
+}
+.btn-center{
+    text-align: center;
+}
+.btn{
+    display:inline-block;
+    width:180px;
+    height: 46px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    line-height: 46px;
+    text-align: center;
+    background-color: #00bebe;
+    color: #fff;
+    font-size: 14px;
+    transition:all .5s;
+}
+.btn:hover{
+    background-color: #00263c;
+}
+.guide{
+    display: block;
+    text-decoration: underline;
+    margin-top: 20px;
+    color: #000;
+    font-size: 10px;
+}

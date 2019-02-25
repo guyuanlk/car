@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>预约试驾</title>
+    <link rel="icon" href="http://127.0.0.1:3000/images/title.png">
+    <link rel="stylesheet" href="css/ES8_order.css">
+</head>
+<body>
+<header class="my-header">
+    <iframe src="header.html" scrolling="no" frameborder="0"></iframe>
+</header>
+<section id="order">
+<img src="images/ES8_order/5W1A9401_0.png" class="img_order" alt="ES8">
+<div class="niohouse-leads-main">
+    <form class="list_order">
+        <table>
+            <tbody>
+                <tr>
+                    <td class="form_title">
+                        <p>申请试驾<strong>NIO ES8</strong></p>
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="name" placeholder="姓名">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="mobile" placeholder="手机">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="sms_code" placeholder="验证码">
+                        <span class="text_teal">发送验证码</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="ui-select-title ui-select-title-img" id="Provincial">用车省份</div>
+                        <div class="ui-select-list" id="Provincial1" style="display:none;">
+                            <!-- <a href="javascript:;">重庆</a>
+                            <a href="javascript:;">重庆</a>
+                            <a href="javascript:;">重庆</a>
+                            <a href="javascript:;">重庆</a>
+                            <a href="javascript:;">重庆</a>
+                            <a href="javascript:;">重庆</a>
+                            <a href="javascript:;">重庆</a> -->
+                        </div>
+                        <input type="hidden">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="ui-select-title ui-select-title-img" id="city">用车城市</div>
+                        <div class="ui-select-list" id="city1" style="display:none;">
+                            <!-- <a href="javascript:;" target="_parent">重庆</a>
+                            <a href="javascript:;">重庆</a>
+                            <a href="javascript:;">重庆</a>
+                            <a href="javascript:;">重庆</a>
+                            <a href="javascript:;">重庆</a>
+                            <a href="javascript:;">重庆</a> -->
+                        </div>
+                        <input type="hidden">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="btn-center">
+                        <input class="btn" type="submit" value="提交">
+                        <br>
+                        <a class="guide" href="javascript::">购车指南</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+</section>
+<footer class="my-footer">
+    <iframe src="footer.html" scrolling="no" frameborder="0"></iframe>
+</footer>
+<script src="js/jquery.min.js"></script>
+<script>
+    $("iframe").ready(function(){
+        $("a").attr("target","_parent");
+    });
+</script>
+<script src="js/ES8_order.js"></script>   
+</body>
+</html>

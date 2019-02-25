@@ -1,0 +1,220 @@
+*{padding: 0;margin: 0;font-family: inherit;}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+}
+/*header*/
+.my-header>iframe,.my-header2>iframe,.my-footer>iframe{
+    width: 100%;
+    margin:auto;
+}
+.my-header2{
+    float: left;
+    z-index: 50;
+    width: 100%;
+    position: fixed;
+    display: none;
+    top:0;
+    margin: auto;
+}
+.my-headerMove{
+    animation: move1 .5s forwards;
+}
+@keyframes move1{
+    0%{
+        top:-300px;
+    }
+    100%{
+        top:0;
+    }
+}
+.my-header{
+    height: 70px;
+    margin: auto;
+}
+.my-header>iframe,.my-header2>iframe{
+    height: 300px;
+}
+.my-footer{
+    margin: auto;
+}
+/*1F*/
+.ES8{
+    width: 1903px;
+    height: 867.25px;
+    background:url(http://127.0.0.1:3000/images/index/Es8-d.jpg);
+    background-size: cover;
+    z-index: -1;
+    margin: auto;
+    text-align: center;
+}
+.testdrive-es8{
+    display: inline-block;
+    margin-top: 300px;
+}
+.testdrive-es8>a,.txt-ES6>a,.watch-playback,.user-more,.featured{ 
+    display:inline-block;
+    width:210px;
+    height: 46px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    line-height: 46px;
+    text-align: center;
+}
+.testdrive-es8>a:last-child,.txt-ES6>a:last-child{
+    margin-left:30px;
+}
+.testdrive-es8>a:hover,.txt-ES6>a:hover,.watch-playback:hover,.user-more:hover,.featured:hover{
+    color:#000;
+    background-color: #fff
+}
+/*2F*/
+.ES6{
+    width: 1903px;
+    height: 965.05px;
+    position: relative;
+    margin: auto;
+}
+.ES6-color{
+    width: 1903px;
+    height: 925.06px;
+    background: url(http://127.0.0.1:3000/images/index/ES6_1.jpg);
+    background-size:cover; 
+}
+.ES6::before{
+    content: "";
+    display: block;
+    height: 20px;
+    background-color: #fff;
+}
+.ES6-2{
+    height: 924.73px;
+}
+.txt-ES6{
+    position: absolute;
+    z-index: 15;
+    top:300px;
+    left: 738px;
+}
+.txt-ES6>a{
+    display:inline-block;
+    width:210px;
+    height: 46px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    line-height: 46px;
+    text-align: center;
+}
+/*3F*/
+.NIO-2018{
+    width: 1903px;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+.NIOday-2018{
+    width: 1903px;
+}
+.watch-playback{
+    position: absolute;
+    z-index: 15;
+    top: 80%;
+    left: 43.5%;
+}
+/*4F*/
+.userCenter{
+    width: 1903px;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+.userCenter>div{
+    width: 47%;
+    height: 637.19px;
+    margin-left: 2%;
+    position: relative;
+}
+.userCenter>div>img{
+    position: relative;
+    top: 35px;
+    width: 100%;
+}
+.user-more{
+    position: absolute;
+    z-index: 15;
+    top: 48%;
+    left: 38%;
+}
+/*5F*/
+.index_Carousel{
+    width:1903px;
+    height: 890px;
+    position: relative;
+    margin: auto;
+}
+nav{
+    width: 1903px;
+    height: 890px;
+    overflow: hidden;
+    position: relative;
+}
+#index{
+    position: absolute;
+    left:50%;
+    margin-left:-32px;
+    bottom: 20px;
+
+}
+#index li{
+    width:8px;
+    height: 8px;
+    border: solid 1px gray;
+    border-radius: 100%;
+    background-color: #eee;
+    display: inline-block;
+}
+#img li{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+#index .on{
+    background-color: rgb(92, 175, 223);
+}
+#img .opa-on{
+    opacity: 1;
+}
+.featured{
+    position: absolute;
+    bottom:39%;
+    left: 40%;
+}
+/*6F*/
+.sexFloor{
+    height: 403px;
+    width: 1903px;
+    position: relative;
+}
+.sexFloor>div:first-child>p{
+    padding-top:86px;
+    font-weight: 300;
+    text-align: center;
+    font-size:30px;
+}
+.sexFloor>div:last-child{
+    display: flex;
+}
+.sexFloor>div:last-child>img:first-child{
+    width: 117px;
+    height: 114px;
+    margin-left: 42%;
+    margin-top: 30px;
+}
+.sexFloor>div:last-child>img:last-child{
+    width: 160px;
+    height: 54px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
