@@ -1,30 +1,10 @@
 *{padding: 0;margin: 0;font-family: inherit;}
-a{
-    text-decoration: none;
-    font-weight: 800;
-}
-/*header and footer*/
-.my-header>iframe,.my-footer>iframe{
-    width: 100%;
-    margin:auto;
-}
-.my-header{
-    height: 70px;
-    margin: auto;
-    position: absolute;
-    z-index: 50;
-    width: 100%;
-}
-.my-header>iframe{
-    height: 300px;
-}
 .my-footer{
-    margin: auto;
-    margin-top:70px;
+    margin-top: 884px;
 }
 /*section*/
 #order{
-    position: relative;
+    position: absolute;
     top:70px;
 }
 .img_order{
@@ -49,25 +29,23 @@ a{
 .form_title{
     width: 380px;
     height: 81px;
-}
-p{
     font-size:1.4em;
 }
-hr{
+.form_title hr{
     margin-top:6%;
 }
-table{
+.list_order table{
     width: 380px;
     height: 551px;
 }
-input{
+.list_order input{
     width: 100%;
     height: 40px;
     border:none;
     border-bottom: 1px solid #b7b8b8;
     font-size: 19px;
 }
-td{
+.list_order td{
     position: relative;
     height: 63px;
 }
@@ -120,7 +98,7 @@ td{
 .btn-center{
     text-align: center;
 }
-.btn{
+#btnn{
     display:inline-block;
     width:180px;
     height: 46px;
@@ -142,4 +120,6 @@ td{
     margin-top: 20px;
     color: #000;
     font-size: 10px;
+    text-decoration: none;
+    font-weight: 800;
 }

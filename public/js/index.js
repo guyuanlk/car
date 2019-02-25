@@ -56,3 +56,7 @@ window.onscroll=function(){
         $(".my-header2").css("display","none");
     }
 }
+//引入header，footer
+$(".my-header").load("header.html");
+$(".my-header2").load("header.1.html");
+$(".my-footer").load("footer.html");

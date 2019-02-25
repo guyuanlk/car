@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="css/ES8_order.css">
 </head>
 <body>
-<header class="my-header">
-    <iframe src="header.html" scrolling="no" frameborder="0"></iframe>
-</header>
+<header class="my-header"></header>
 <section id="order">
 <img src="images/ES8_order/5W1A9401_0.png" class="img_order" alt="ES8">
 <div class="niohouse-leads-main">
@@ -71,7 +69,7 @@
                 </tr>
                 <tr>
                     <td class="btn-center">
-                        <input class="btn" type="submit" value="提交">
+                        <input id="btnn" type="submit" value="提交">
                         <br>
                         <a class="guide" href="javascript::">购车指南</a>
                     </td>
@@ -81,15 +79,8 @@
     </form>
 </div>
 </section>
-<footer class="my-footer">
-    <iframe src="footer.html" scrolling="no" frameborder="0"></iframe>
-</footer>
+<footer class="my-footer"></footer>
 <script src="js/jquery.min.js"></script>
-<script>
-    $("iframe").ready(function(){
-        $("a").attr("target","_parent");
-    });
-</script>
-<script src="js/ES8_order.js"></script>   
+<script src="js/ES8_order.js"></script> 
 </body>
 </html>

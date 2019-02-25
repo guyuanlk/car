@@ -33,6 +33,7 @@
 }
 #header-color>div:first-child>ul>li>ul{
     position: relative;
+    z-index: 500;
 }
 #header-color li{
  list-style: none;
