@@ -5,7 +5,7 @@ const index=require("./routes/index.route");
 const headerFooter=require("./routes/header.footer");
 const ES8Order=require("./routes/ES8_order");
 var app = express();
-var server = app.listen(3000);
+app.listen(3000);
 //使用body-parser中间件
 app.use(bodyParser.urlencoded({extended:false}));
 //托管静态资源到public目录下

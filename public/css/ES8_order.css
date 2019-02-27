@@ -44,6 +44,7 @@
     border:none;
     border-bottom: 1px solid #b7b8b8;
     font-size: 19px;
+    outline: none;
 }
 .list_order td{
     position: relative;
@@ -110,8 +111,10 @@
     color: #fff;
     font-size: 14px;
     transition:all .5s;
+    cursor: pointer;
+
 }
-.btn:hover{
+#btnn:hover{
     background-color: #00263c;
 }
 .guide{
@@ -120,6 +123,20 @@
     margin-top: 20px;
     color: #000;
     font-size: 10px;
-    text-decoration: none;
     font-weight: 800;
+}
+/*弹窗*/
+#Pop-ups{
+    width: 353px;
+    height: 83px;
+    background-color: #333333;
+    opacity: 0.8;
+    text-align: center;
+    position: absolute;
+    line-height: 83px;
+    color: white;
+    top: 490px;
+    left: 113px;
+    display: none;
+    border-radius: 10px;
 }
