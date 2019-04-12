@@ -106,19 +106,36 @@ $("#btnn").click(function(){
         PopUps(n);
     }else{
         //发送提交请求
-        $(function(){
-            $.ajax({
-                url:`http://127.0.0.1:3000/ES8_order/submit?es8_name=${name}&es8_phone=${phone}&es8_Provincial=${Provincial}&es8_city=${city}`,
-                type:"get",
-                dataType:"json",
-                success:function(data){
-                   n=data.msg;
-                    PopUps(n);
-                    setTimeout(function(){
-                        window.location.reload();
-                    },2000);
-                }
-            })
-        })
+         $(function(){
+             $.ajax({
+                 url:`http://127.0.0.1:3000/ES8_order/submit?es8_name=${name}&es8_phone=${phone}&es8_Provincial=${Provincial}&es8_city=${city}`,
+                 type:"post",
+                 dataType:"json",
+                 success:function(data){
+                    n=data.msg;
+                     PopUps(n);
+                     setTimeout(function(){
+                         window.location.reload();
+                     },2000);
+                 }
+             })
+         })
+        // var xhr=new XMLHttpRequest();
+        // xhr.onreadystatechange=function(){
+        //     if(xhr.readyState==4 && xhr.status==200){
+        //         var result=xhr.responseText
+        //         var arr=JSON.parse(result);
+        //         n=arr.msg;
+        //         console.log(n)
+        //         PopUps(n);
+        //         // setTimeout(function(){
+        //         //      window.location.reload();
+        //         // },2000);
+        //     }    
+        // }
+        // xhr.open("post",`http://127.0.0.1:3000/ES8_order/submit`,true);
+        // var formdata=`es8_name=${name}&es8_phone=${phone}&es8_Provincial=${Provincial}&es8_city=${city}`
+        // xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        // xhr.send(formdata)
     }
 })

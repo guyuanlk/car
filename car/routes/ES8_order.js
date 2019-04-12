@@ -23,7 +23,7 @@ router.get("/order_city",(req,res)=>{
 })
 module.exports=router;
 //提交
-router.get("/submit",(req,res)=>{
+router.post("/submit",(req,res)=>{
   var es8_name=req.query.es8_name;
   var es8_phone=req.query.es8_phone;
   var es8_Provincial=req.query.es8_Provincial;
